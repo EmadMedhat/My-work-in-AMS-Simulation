@@ -1,0 +1,28 @@
+opamp
+
+.subckt opamp 1 2 3
+* 1:+ve input
+* 2:-ve input
+* 3:output
+Gopamp 0 4 1 2 10m
+*
+Inode1 1 0 0
+Inode2 2 0 0
+*dummy currents to avoid spice errors
+Rres 4 0 1meg
+Ccap 4 0 159.1p
+*open loop gain = IR = 1e4, assume R=1Meg so I=10m
+*UGF= BW*AOL, so 10MEG * 2PI = 1/RC, then C = 159.1p
+Eopamp 3 0 4 0 1
+*output buffer
+.ends
+
+xop1 1 2 3 opamp
+VIN 1 0 ac 1
+Vdummy 2 3 0
+
+.ac dec 5 1 100meg
+
+.end
+
+
