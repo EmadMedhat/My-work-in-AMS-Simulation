@@ -1,0 +1,38 @@
+opamp
+
+.subckt opamp 1 2 3
+* 1:+ve input
+* 2:-ve input
+* 3:output
+Gopamp 0 4 1 2 10m
+*
+Inode1 1 0 0
+Inode2 2 0 0
+*dummy currents to avoid spice errors
+Rres 4 0 1meg
+Ccap 4 0 159.1p
+*open loop gain = IR = 1e4, assume R=1Meg so I=10m
+*UGF= BW*AOL, so 10MEG * 2PI = 1/RC, then C = 159.1p
+Eopamp 3 0 4 0 1
+*output buffer
+.ends
+
+*.param freg=1meg
+*.param period= 1/freg
+.param ress = 4k
+xop1 1 2 3 opamp
+*using the Subcircuit
+*VIN 1 0 dc 1
+VIN 1 0 ac 1
+*vsin 1 0 sin(0 1 1k 0)
+Rin 2 0 1k
+Rfb 2 3 {ress}
+
+.step  param ress list 4k 9k
+
+.ac dec 5 1 100meg
+
+
+.end
+
+
