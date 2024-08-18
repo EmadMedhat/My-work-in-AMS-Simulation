@@ -1,0 +1,24 @@
+CMOS inverter tran analysis
+.include ee214b_hspice.sp
+** Circuit Description **
+.param mult =1
+.subckt inv 1 2 3
+M1 3 1 2 2 pch W=20u L=180n m={mult}
+M2 3 1 0 0 nch W=10u L=180n m={mult}
+.ends inv
+VDD 2 0 DC 1.8V
+Vin 1 0 PULSE(0 1.8 0 10p 10p 1n 2n)
+x1 1 2 3 inv params: mult=1
+x2 3 2 4 inv params: mult={4**1}
+x3 4 2 5 inv params: mult={4**2}
+x4 5 2 6 inv params: mult={4**3}
+x5 6 2 7 inv params: mult={4**4}
+** Analysis Requests **
+.TRAN 5p 4n
+*delay defined from 50% of input to 50% of output
+.MEAS TRAN Tphl TRIG when v(4) =0.9 cross=1 TARG when v(5)=0.9 cross=1
+.MEAS TRAN Tplh TRIG when v(4) =0.9 cross=2 TARG when v(5)=0.9 cross=2
+.END
+
+`
+

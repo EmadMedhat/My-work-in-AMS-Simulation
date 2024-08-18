@@ -1,0 +1,11 @@
+NMOS testbench
+.include my_nmos.lib
+.include my_pmos.lib
+** Circuit Description **
+VGS 1 0 DC 1.8V
+VDS 2 0 DC 1.8V
+M1 2 1 0 0 nmos_part1_3 W=10u L=180n
+** Analysis Requests **
+#.DC VDS 0 1.8 0.05 VGS 0 1.8 0.2
+.DC VDS 0 1.8 0.05
+.END

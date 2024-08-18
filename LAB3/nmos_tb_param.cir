@@ -1,0 +1,13 @@
+NMOS testbench
+.include my_nmos.lib
+.param VGS=1.8V
+.param VDS=1.8V
+** Circuit Description **
+VGS 1 0 DC 1.8V
+VDS 2 0 DC 1.8V
+M1 2 1 0 0 nmos_part1_2 W=10u L=180n
+** Analysis Requests **
+#.DC VDS 0 1.8 0.05 VGS 0 1.8 0.2
+.DC VDS 0 1.8 0.05
+.step VGS 0 1.8 0.1
+.END

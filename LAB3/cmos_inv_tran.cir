@@ -1,0 +1,19 @@
+CMOS inverter tran analysis
+.include my_nmos.lib
+.include my_pmos.lib
+** Circuit Description **
+VDD 2 0 DC 1.8V
+Vin 1 0 PULSE(0 1.8 0 5p 5p 45p 100p)
+#M1 3 1 2 2 pmos_part1_4 W=20u L=180n
+#M2 3 1 0 0 nmos_part1_2 W=10u L=180n
+M1 3 1 2 2 pmos_part1_6 W=20u L=180n AD=9p AS=9p PD=40.9u PS=40.9u
+M2 3 1 0 0 nmos_part1_6 W=10u L=180n AD=4.5p AS=4.5p PD=20.9u PS=20.9u
+** Analysis Requests **
+.TRAN 1p 200p
+*delay defined from 50% of input to 50% of output
+.MEAS TRAN Tphl TRIG when v(1) =0.9 cross=1 TARG when v(3)=0.9 cross=1
+.MEAS TRAN Tplh TRIG when v(1) =0.9 cross=2 TARG when v(3)=0.9 cross=2
+.END
+
+
+

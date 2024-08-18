@@ -1,0 +1,13 @@
+*************Notes***************
+
+* You may use LTspice help.
+
+* Any question mark (?) should be replaced by a word or a numeric value.
+
+* Use nmos_part1_i where i refers to the deliverable you
+* are working on.
+
+
+.MODEL pmos_part1_4 PMOS [level=1 Vto=-0.4 kp=91.835u Lambda=0.1 ]
+
+.MODEL pmos_part1_6 PMOS [level=1 Vto=-0.4 kp=91.835u Lambda=0.1 CJ=1m CJSW=100p]
