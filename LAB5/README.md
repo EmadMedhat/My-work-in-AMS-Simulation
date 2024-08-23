@@ -1,1 +1,1 @@
-copy nch.mat & pch.mat from LAB4
+# copy nch.mat & pch.mat from LAB4
