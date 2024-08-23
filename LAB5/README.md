@@ -1,0 +1,1 @@
+copy nch.mat & pch.mat from LAB4
