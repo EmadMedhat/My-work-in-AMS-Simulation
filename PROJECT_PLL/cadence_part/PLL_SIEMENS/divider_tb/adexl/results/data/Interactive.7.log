@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Sep 16 03:13:10 2024 
+Best design point: 1
+Design specs: 
+	PLL_SIEMENS:divider_tb:2	corner	Nominal - 
+Design parameters: 
+	LN		180n
+	LP		180n
+	WN		1u
+	WP		2u
+
+Interactive.7
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.7 completed. 
+Current time: Mon Sep 16 03:13:16 2024 

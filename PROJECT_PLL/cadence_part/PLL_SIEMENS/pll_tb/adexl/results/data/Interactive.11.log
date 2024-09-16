@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Sep 15 10:52:12 2024 
+Best design point: 1
+Design specs: 
+	PLL_SIEMENS:pll_tb:1	corner	Nominal - 
+Design parameters: 
+	LN		180n
+	LP		180n
+	WN		1u
+	WP		2u
+
+Interactive.11
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.11 completed. 
+Current time: Sun Sep 15 10:54:42 2024 

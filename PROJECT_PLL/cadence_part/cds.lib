@@ -1,0 +1,6 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE MentorObserverLib $MGC_HOME/shared/pkgs/icv/tools/realtime/virtuoso/MentorObserverLib
+DEFINE PLL_SIEMENS /home/cadence/Desktop/pll_siem/PLL_SIEMENS
+INCLUDE $(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib
+
+

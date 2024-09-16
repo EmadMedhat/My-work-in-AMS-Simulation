@@ -1,0 +1,101 @@
+\o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/18/2015 00:06 (sjfnl678) $
+\o Sub version:		sub-version  p009 
+\o Arguments:		-mpssession virtuoso1537 -mpshost berkeley 
+\o Working Directory:	berkeley:/home/cadence/Desktop/pll_siem
+\o 64-bit offsets
+\o Qt version: 		4.8.5
+\o Log file is "/home/cadence/Desktop/pll_siem/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 25 1020 695))
+\o changeWorkingDir("/home/cadence/Desktop/pll_siem") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Cannot find file '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'.
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Skipping: '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'
+\o  
+\a cdsLibManager->libListBox->value = "PLL_SIEMENS"
+\a cdsLibManager->libLineEdit->value = "PLL_SIEMENS"
+\a cdsLibManager->cellListBox->value = "divider"
+\a cdsLibManager->cellLineEdit->value = "divider"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "divider_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "divider_tb"
+\a cdsLibManager->viewListBox->value = "adexl"
+\a cdsLibManager->viewLineEdit->value = "adexl"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "adexl"
+\a cdsLibManager->viewLineEdit->value = "adexl"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "adexl"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Cannot find file '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'.
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Skipping: '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'
+\o  
+\a cdsLibManager->libListBox->value = "PLL_SIEMENS"
+\a cdsLibManager->libLineEdit->value = "PLL_SIEMENS"
+\a cdsLibManager->cellListBox->value = "divider_tb"
+\a cdsLibManager->cellLineEdit->value = "divider_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Cannot find file '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'.
+\w Warning: '/home/cadence/Desktop/pll_siem/cds.lib', Line 4: Skipping: '$(inst_root_with:tools/bin/irun)/tools/inca/files/cds.lib'
+\o  
+\a cdsLibManager->libListBox->value = "PLL_SIEMENS"
+\a cdsLibManager->libLineEdit->value = "PLL_SIEMENS"
+\a cdsLibManager->cellListBox->value = "divider_tb"
+\a cdsLibManager->cellLineEdit->value = "divider_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\o libManager is exiting.

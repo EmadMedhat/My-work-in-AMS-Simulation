@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      academy
+HostName                       DI1EGCAI0062WNB.ad001.siemens.net
+ProcessIdentifier              18084
+ProcessCreationTime_UTC        1726298913
+ProcessCreationTime_Readable   Sat Sep 14 10:28:33 2024 Egypt Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\academy\Desktop\proj_G16\pfd\symbol\symbol.oa.cdslck
+TimeEditLocked                 Sat Sep 14 10:36:45 2024 Egypt Daylight Time

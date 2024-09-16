@@ -1,0 +1,214 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = PLL_SIEMENS
+	Cell         = divider_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = PLL_SIEMENS:divider_tb:2_none_Interactive.5
+	Results DB   = /home/cadence/Desktop/pll_siem/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5.rdb
+	Results Dir  = /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2
+	Results Loc  = /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/pll_siem/PLL_SIEMENS/divider_tb/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [
+          PLL_SIEMENS:divider_tb:2 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var LN = "180n"
+Setting var LP = "180n"
+Setting var WN = "1u"
+Setting var WP = "2u"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+Begin Incremental Netlisting Sep 16 03:10:37 2024
+End netlisting Sep 16 03:10:37 2024
+
+Netlisting Statistics:
+	Number of components:    4
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ PLL_SIEMENS:divider_tb:2
+          ] for Point ID (1 1).
+
+Delete psf data in /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `inv', during circuit
+          read-in.
+Error found by spectre in `inv', during circuit
+          read-in.
+ERROR (SFE-23): "input.scs" 14: The instance `M0'
+          is referencing an undefined model or subcircuit, `nch'.
+          Either include the file containing the defin
+ition of
+          `nch', or define `nch' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 15: The instance `M1' is referencing
+          an undefined model or subcircuit, `pch'. Either include the
+          file containing the defin
+ition of `pch', or define `pch'
+          before running the simulation.
+Error found by spectre in
+          `TG', during circuit read-in.
+Error found by spectre in
+          `TG', during circuit read-in.
+ERROR (SFE-23): "input.scs"
+          23: The instance `M0' is referencing an undefined model or
+          subcircuit, `nch'. Either include the file containing the
+          defin
+ition of `nch', or define `nch' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 24: The instance
+          `M1' is referencing an undefined model or subcircuit,
+          `pch'. Either include the file containing the defin
+ition
+          of `pch', or define `pch' before running the simulation.
+
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [
+          PLL_SIEMENS:divider_tb:2 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var LN = "180n"
+Setting var LP = "180n"
+Setting var WN = "1u"
+Setting var WP = "2u"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+Begin Incremental Netlisting Sep 16 03:10:38 2024
+End netlisting Sep 16 03:10:38 2024
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ PLL_SIEMENS:divider_tb:2
+          ] for Point ID (1 1).
+
+Delete psf data in /home/cadence/simulation/PLL_SIEMENS/divider_tb/adexl/results/data/Interactive.5/1/PLL_SIEMENS:divider_tb:2/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `inv', during circuit
+          read-in.
+Error found by spectre in `inv', during circuit
+          read-in.
+ERROR (SFE-23): "input.scs" 14: The instance `M0'
+          is referencing an undefined model or subcircuit, `nch'.
+          Either include the file containing the defin
+ition of
+          `nch', or define `nch' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 15: The instance `M1' is referencing
+          an undefined model or subcircuit, `pch'. Either include the
+          file containing the defin
+ition of `pch', or define `pch'
+          before running the simulation.
+Error found by spectre in
+          `TG', during circuit read-in.
+Error found by spectre in
+          `TG', during circuit read-in.
+ERROR (SFE-23): "input.scs"
+          23: The instance `M0' is referencing an undefined model or
+          subcircuit, `nch'. Either include the file containing the
+          defin
+ition of `nch', or define `nch' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 24: The instance
+          `M1' is referencing an undefined model or subcircuit,
+          `pch'. Either include the file containing the defin
+ition
+          of `pch', or define `pch' before running the simulation.
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

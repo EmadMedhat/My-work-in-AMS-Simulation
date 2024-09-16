@@ -7,20 +7,20 @@ VDD 7 0 DC 1.8
 * input
 VAC1 3 8 ac 0.5
 VAC2 4 9 ac -0.5
-VDC1 8 0 dc 900m
-VDC2 9 0 dc 900m
+VDC1 8 0 dc 1.1282
+VDC2 9 0 dc 1.1282
 
 * circuit
 * 5T OTA
-M1 6 4 2 0 nch L=317n W=7.197u
-M2 5 3 2 0 nch L=317n W=7.197u
-M3 6 5 7 7 pch L=627n W=8.658u
-M4 5 5 7 7 pch L=627n W=8.658u
-M5 2 1 0 0 nch L=928.8n W=8.625u
+M1 6 4 2 0 nch L=0.27u W=8.03u
+M2 5 3 2 0 nch L=0.27u W=8.03u
+M3 6 5 7 7 pch L=1u W=15.81u
+M4 5 5 7 7 pch L=1u W=15.81u
+M5 2 1 0 0 nch L=0.85u W=8.86u
 CL 6 0 500f
 * Current Mirror
-M6 1 1 0 0 nch L=1.45u W=4.3125u
-Iref 7 1 17.13u
+M6 1 1 0 0 nch L=0.85u W=8.86u
+Iref 7 1  33.273u
 ** Analysis Requests **
 .op
 .ac dec 10 1 10e9
